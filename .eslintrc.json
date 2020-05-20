@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": false,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "files":["test/*.spec.js"],
+    "rules": {
+        "linebreak-style": "off"
+    }
+}
